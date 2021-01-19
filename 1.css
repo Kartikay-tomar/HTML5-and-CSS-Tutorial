@@ -1,0 +1,87 @@
+h4{
+    color: crimson;
+}
+
+/* Selectors
+    1- Combine selectors */
+
+        h1,p,span{
+            color:red
+        }
+
+    /* 2- Type selectors
+
+        <h1>HEY</h1> */
+            h1{
+               property:value;
+            }
+
+    /* 3- Class selectors */
+
+            .className{
+                property:value;
+            }
+
+    /* 4- ID selector */
+
+        #idName{
+            property:value;
+        }
+
+    /* 5- Attribute selector */
+
+        /* <a href="________"> */
+                a[href="________"]{
+                    property:value;
+                }
+
+    /* 6- Pseudo class selector (Used to style states of elements)
+
+         Some important states
+        >Hover
+        >Visited
+        >link */
+
+    selector::pseudo-class{
+        property:value;
+    } 
+
+    /* 7- Combination selectors (elements can be selected along with child class) */
+
+        article>p{
+            property:value
+        }
+    
+    /* 8-  Universal selector */
+        
+        *{
+            property:value
+        }
+/*     
+Descend end combinatior(EK type ke element ke neeche dusre type ka element select kar sakte hai) */
+
+        li em{
+            Colour:blue;
+        }
+    /* Li me jo em tag hoga wo blue ho jayega */
+
+/* CSS PROPERTY */
+
+/* Colours (hex, rgb, simple)
+#ffffff then select */
+
+h1{
+    color: red;
+    
+}
+
+body{
+    background-image: url(x.png);
+    background-repeat:no-repeat;
+    background-size: 30%;
+    background-position: bottom;
+    }
+
+
+
+
