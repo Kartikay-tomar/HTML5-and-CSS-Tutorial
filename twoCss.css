@@ -1,0 +1,55 @@
+.box1{
+    margin: 30px;
+    background-color: brown;
+}
+
+.box2{
+    padding: 30px;
+    background-color: rgb(0, 26, 255);
+}
+
+li{
+    list-style-type:georgian;
+}
+
+.tbl{
+    border-collapse:unset;
+} 
+
+th, td{
+padding:15px
+}
+
+th{
+    background-color: rgb(255, 0, 0);
+}
+
+td{
+    background-color: rgb(242, 255, 0);
+}
+
+
+.fav{
+    color:khaki !important;
+    font-weight: 900;
+}
+
+ul#hello li{
+font-size: 70px;
+color: limegreen;
+font-weight: normal;
+}
+
+body{
+    color: mediumblue;
+}
+
+.class1 a{
+    color: inherit;
+}
+.overflow{
+    border: 3px solid black;
+    font-size: 200%;
+    width: 80px;
+    overflow: auto;
+}
